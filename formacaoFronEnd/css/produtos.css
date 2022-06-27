@@ -28,7 +28,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #727070;
+    color: #c11010;
 }
 
 .produtos {
@@ -50,11 +50,11 @@ nav a:hover {
 }
 
 .produtos li:hover {
-    border-color: #f3e00a;
+    border-color: #c11010;    
 }
 
 .produtos li:active {    
-    border-color: #c11010;
+    border-color: #f3e00a;
 }
 
 .produtos li:hover h2 {    
@@ -75,3 +75,14 @@ nav a:hover {
     margin-top: 10px;
 }
 
+footer {
+    text-align: center;
+    background: url("/formacaoFronEnd/img/bg.jpg");    
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #cecece;
+    font-size: 13px;
+    margin: 20px;
+}
