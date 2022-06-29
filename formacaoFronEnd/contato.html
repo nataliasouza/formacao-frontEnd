@@ -9,7 +9,7 @@
     <body>
         <header>
             <div class="caixa">
-                <h1><img src="./img/logo.png"></h1>
+                <h1><img src="./img/logo.png" alt="Logo da Barbearia Alura"/></h1>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -33,8 +33,8 @@
                 <label for="mensagem">Mensagem</label>
                 <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
 
-                <div>
-                    <p>Como prefere o nosso contato?</p>
+                <fieldset>
+                    <legend>Como prefere o nosso contato?</legend>
                     <label for="radio-email">
                         <input type="radio" name="contato" value="email" id="radio-email">Email</label>
                     
@@ -42,28 +42,28 @@
                         <input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
                     
                     <label for="radio-whatsapp">
-                        <input type="radio" name="contato" value="WhatsApp" id="radio-whatsapp">WhatsApp</label>
-                </div>
+                        <input type="radio" name="contato" value="WhatsApp" id="radio-whatsapp" checked>WhatsApp</label>
+                </fieldset>
 
-                <div>
-                    <p>Qual horário prefere ser atendido?</p>
+                <fieldset>
+                    <legend>Qual horário prefere ser atendido?</legend>
                     <select>
                         <option>Manhã</option>
                         <option>Tarde</option>
                         <option>Noite</option>
                     </select>
-                </div>
+                </fieldset>
 
-                <label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por e-mail?</label>
+                <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por e-mail?</label>
 
-                <input type="submit" value="Enviar Formulário">
+                <input type="submit" value="Enviar Formulário" class="enviar">
 
             </form>
 
         </main>        
 
         <footer>
-            <img src="./img/logo-branco.png">
+            <img src="./img/logo-branco.png" alt="Logo da Barbearia Alura">
             <p class="copyright">&copy; Copyright Barbearia Alura - 2022</p>
         </footer>
 
