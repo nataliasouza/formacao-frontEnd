@@ -2,13 +2,17 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 header{
-    background: rgb(65, 64, 64);
+    background: rgb(167, 2, 2);
     padding: 20px 0;
 }
 .caixa{    
     position: relative;
     width: 940px;
     margin: 0 auto;
+}
+
+.caixa h1 img {
+    width: 250px;
 }
 
 nav {
@@ -24,7 +28,7 @@ nav li {
 
 nav a {
     text-transform: uppercase;
-    color: #cecece;
+    color: #fefefe;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
@@ -170,14 +174,14 @@ td, th {
 }
 
 .utensilios {
-    height: 120px;
+    height: 150px;
     float: left;
     margin: 0 20px 20px 0;    
 }
 
 .mapa {
     padding: 3em 0;
-    background: linear-gradient(#cecece, #fefefe) ;
+    background: #fefefe ;
     color: rgb(34, 34, 34);
 }
 
@@ -187,7 +191,7 @@ td, th {
 }
 
 .mapa-conteudo {
-    width: 940px;
+    width: 100%;    
     margin: 0 auto;
 }
 
@@ -237,10 +241,26 @@ td, th {
     margin: 2em auto;
 }
 
+.titulo-video {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    color: #cecece;
+}
+
+.video-barbearia {
+    padding: 3em 0;
+    background: rgb(34, 34, 34); 
+}
+
 footer {
     text-align: center;
     background: url("/formacaoFronEnd/img/bg.jpg");    
-    padding: 40px 0;
+    padding: 40px 0;       
+}
+
+footer img {
+    width: 250px; 
 }
 
 @media screen and (max-width: 480px) {
