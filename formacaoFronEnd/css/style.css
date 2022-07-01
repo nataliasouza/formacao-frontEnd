@@ -90,12 +90,14 @@ nav a:hover {
 
 form {
     margin: 40px 0;
+    width: 940px;
+    margin: 0 auto;
 }
 
-form label, form legend {
+label{
     display: block;
     font-size: 20px;
-    margin: 0 0 10px;
+    margin: 30px 0 10px;
 }
 
 .input-padrao {
@@ -105,13 +107,43 @@ form label, form legend {
     width: 50%;
 }
 
+legend {
+    display: block;
+    font-size: 20px;   
+}
+
+.preferencia-contato {
+    margin-bottom: 30px;    
+}
+
+.preferencia-atendimento {
+    margin-top: 10px;
+}
+
+table {
+    margin: 20px 0 30px;
+    width: 40%;
+}
+
+thead {
+    background:#555555;
+    color:white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid rgb(34, 34, 34);
+    padding: 8px 15px;
+}
+
 .checkbox {
-    margin: 20px 0;
+    margin: 30px 0;
 }
 
 .enviar {
     width: 40%;
     padding: 15px 0;
+    margin-bottom: 30px;
     background: orange;
     color:white;
     font-weight: bold;
@@ -125,20 +157,6 @@ form label, form legend {
 .enviar:hover{
     background: darkorange;
     transform: scale(1.2);
-}
-
-table {
-    margin: 20px 0 40px;
-}
-thead {
-    background:#555555;
-    color:white;
-    font-weight: bold;
-}
-
-td, th {
-    border: 1px solid rgb(34, 34, 34);
-    padding: 8px 15px;
 }
 
 /*Css da página inicial*/
