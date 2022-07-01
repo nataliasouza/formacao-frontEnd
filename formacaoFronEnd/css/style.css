@@ -90,12 +90,14 @@ nav a:hover {
 
 form {
     margin: 40px 0;
+    width: 940px;
+    margin: 0 auto;
 }
 
-form label, form legend {
+label {
     display: block;
     font-size: 20px;
-    margin: 0 0 10px;
+    margin: 10px 0 10px;
 }
 
 .input-padrao {
@@ -106,7 +108,7 @@ form label, form legend {
 }
 
 .checkbox {
-    margin: 20px 0;
+    margin: 30px 0;
 }
 
 .enviar {
@@ -115,6 +117,7 @@ form label, form legend {
     background: orange;
     color:white;
     font-weight: bold;
+    margin-bottom: 30px;
     font-size: 18px;
     border: none;
     border-radius: 5px;
@@ -127,8 +130,22 @@ form label, form legend {
     transform: scale(1.2);
 }
 
+legend {
+    display: block;
+    font-size: 20px;   
+}
+
+.preferencia-contato {
+    margin-bottom: 30px;    
+}
+
+.preferencia-atendimento {
+    margin-top: 10px;
+}
+
 table {
-    margin: 20px 0 40px;
+    margin: 20px 0 30px;
+    width: 40%;
 }
 thead {
     background:#555555;
