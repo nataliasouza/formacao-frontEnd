@@ -85,6 +85,7 @@ Veremos como o CSS cresceu hoje oferece um mar de possibilidades para designers.
 
 <details>
   <summary> <b> Detalhamento das atividades </b> <i>(clique na setinha!)</i> </summary><br>
+
 1. ARTIGO: Como funciona o import e export do JavaScript?	
 ```bash
 https://www.alura.com.br/artigos/como-funciona-o-import-e-export-do-javascript
